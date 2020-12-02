@@ -20,7 +20,7 @@ jobs:
       - name: build
         run: cabal build --enable-tests --enable-benchmarks
       - name: test
-        run: cabal test --enable-tests
+        run: cabal test
       - name: haddock
         run: cabal haddock 
     strategy:
